@@ -1,0 +1,2 @@
+#!/bin/bash
+timeout 1 java -cp /app Main < "/app/$1.in"
