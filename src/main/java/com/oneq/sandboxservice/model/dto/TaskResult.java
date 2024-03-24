@@ -6,4 +6,5 @@ import lombok.Data;
 public class TaskResult {
     private JudgeResult judgeResult;
     private String containerId;
+    private String userCodePath;
 }

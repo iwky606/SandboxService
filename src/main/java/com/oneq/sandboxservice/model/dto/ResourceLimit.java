@@ -8,6 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ResourceLimit {
-    private long timeLimit;
-    private int memoryLimit;
+    private long timeLimit;// 毫秒
+    private int memoryLimit;// kb
 }

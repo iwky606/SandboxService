@@ -8,7 +8,6 @@ import lombok.ToString;
 @ToString
 public class JudgeResult {
     private Long judgeId;
-    private String[] outputs;
-    private JudgeInfo judgeInfo;
+    private JudgeOutputs[] outputs;
     private JudgeStatus judgeStatus;
 }
