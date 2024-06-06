@@ -1,10 +1,7 @@
 package com.oneq.sandboxservice.model.enums;
 
 public enum Language {
-    JAVA8(1),
-    JAVA17(2),
-    CPP20(3),
-    PYTHON3(4);
+    JAVA8(0), JAVA17(1), CPP20(2), PYTHON3(3);
 
     private final int value;
 
