@@ -8,3 +8,6 @@ spring:
     listener:
       simple:
         prefetch: 1
+
+server:
+  port: 8881
