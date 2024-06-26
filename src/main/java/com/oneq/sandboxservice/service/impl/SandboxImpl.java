@@ -29,8 +29,8 @@ public class SandboxImpl implements Sandbox {
         log.info("id {} judgetask, outputs is {}", judgeTask.getJudgeId(), Arrays.deepToString(taskResult.getJudgeResult().getOutputs()));
         // 结束容器
         dockerClient.stopContainerCmd(taskResult.getContainerId()).exec();
-        // 删除创建的文件夹
-        FileUtil.del(taskResult.getUserCodePath());
+        // TODO: 删除创建的文件夹
+        // FileUtil.del(taskResult.getUserCodePath());
         return taskResult.getJudgeResult();
     }
 }
