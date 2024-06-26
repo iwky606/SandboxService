@@ -13,11 +13,6 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class JudgeTaskListener {
-    @RabbitListener(queues = "test.queue")
-    public void testQueue(String msg) {
-        log.info(msg);
-    }
-
     @Resource
     ManageTask manageTask;
 
